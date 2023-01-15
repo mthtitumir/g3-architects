@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Poppins:ital,wght@0,400;0,500;1,400&family=Raleway&family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 auto;
+}
+
+body {
+    width: 1920px;
+}
+
+/* primary styles  */
+.primary-text{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* header start  */
+.header-container {
+    width: 1920px;
+    height: 1322px;
+    margin: 0;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* nav bar styles  */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 240px;
+}
+
+.nav-links {
+    list-style: none;
+    margin-right: 240px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+.nav-links li a {
+    font-weight: 500px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #424242;
+    cursor: pointer;
+}
+
+/* banner text style start */
+.banner-text {
+    width: 862px;
+    height: 322px;
+    /* border: 1px solid black; */
+    margin-top: 102px;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-text p {
+    font-weight: 400px;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 25px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/* banner image  */
+.banner-img img {
+    width: 1440px;
+    height: 700px;
+    margin: 50px 240px;
+}
+
+/* quick list features  */
+.quick-list {
+    display: flex;
+    gap: 73px;
+    margin: 85px 301px 0px 301px;
+}
+
+.quick-list-img {
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick-list-text {
+    margin-right: 0px;
+    margin-top: 202px;
+    text-align: left;
+
+}
+
+.quick-list-text h3 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.quick-list-text h3 .span1 {
+    color: #131313;
+    font-weight: 700;
+}
+
+.quick-list-text h3 .span2 {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.quick-list-text p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* features section  */
+.features{
+    margin: 130px 240px 0px 240px;
+    display: flex;
+    align-items: center;
+    gap: 146px;
+    position: relative;
+    
+}
+.features-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+}
+.features-title h3{
+    margin-left: 21px;
+}
+.features-info p{
+    margin-top: 24px;
+    margin-bottom: 10px;
+    
+}
+.feature{
+    margin-top: 20px;
+    border: 5px solid transparent;
+    box-shadow: 0 0 10px rgb(221, 214, 214);
+}
+.feature h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 33px;
+}
+.feature p{
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+/* .features-img{
+} */
+.big-button{
+    position: absolute;
+    bottom: 0;
+    right: 458px;
+    width: 342px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+.big-button button{
+    border: none;
+    background-color: #FF900E;
+    color: white;
+    padding: 46px 42px;
+}
+button h3{
+    font-weight: 700;
+    font-size: 65px;
+}
+button p{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* facts section styles  */
+.facts{
+    margin-top: 130px;
+}
+.facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 240px;
+}
+.facts-info{
+    margin-top: 24px;
+    margin-left: 240px;
+}
+.facts-container{
+    display: flex;
+    
+    margin: 100px 290px 0px 290px;
+    gap: 124px;
+}
+.fact{
+    border: 1px solid #FF900E;
+    width: 241px;
+    height: 241px;
+    text-align: center;
+    
+}
+
+.fact img{
+    margin-top: 45px;
+}
+.fact h3{
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 10px;
+    
+}
+.fact p{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* sponsors section  */
+.sponsors{
+    margin-top: 180px;
+    text-align: center;
+}
+.sponsors-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponsors p{
+    margin-top: 24px;
+}
+.sponsors-logos{
+    margin: 50px 240px 0px 240px;
+    display: flex;
+    gap: 155px;
+}
+.sponsors-logos img{
+    filter: grayscale(100%);
+}
+
+/* footer section  */
+footer{
+    margin: 130px 240px 130px 240px;
+    background-color: #FFF4E7;
+}
+footer p{
+    padding: 30px 410px;
+    font-weight: 400;
+    font-size: 20px;
+}
